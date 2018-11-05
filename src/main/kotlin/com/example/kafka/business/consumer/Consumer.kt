@@ -1,4 +1,4 @@
-package com.example.kafka.consumer
+package com.example.kafka.business.consumer
 
 import org.slf4j.LoggerFactory
 import org.springframework.kafka.annotation.KafkaListener

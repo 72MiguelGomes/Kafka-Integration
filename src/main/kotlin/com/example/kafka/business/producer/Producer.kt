@@ -1,4 +1,4 @@
-package com.example.kafka.producer
+package com.example.kafka.business.producer
 
 import org.slf4j.LoggerFactory
 import org.springframework.beans.factory.annotation.Autowired
