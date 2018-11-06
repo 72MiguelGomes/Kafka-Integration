@@ -1,3 +1,3 @@
 package com.example.kafka.business.model
 
-class User(val name: String, val age: Int)
+class User(var name: String = "", var age: Int = 0)
