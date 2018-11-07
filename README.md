@@ -29,3 +29,18 @@ bin/kafka-console-consumer.sh --bootstrap-server localhost:9092 --topic users --
 ```
 bin/kafka-console-producer.sh --broker-list localhost:9092 --topic users
 ```
+
+
+## Test Application
+
+##### Request Example
+
+```
+curl -X POST \
+  http://localhost:9000/kafka/publish \
+  -H 'Content-Type: application/json' \
+  -d '{
+	"name": "Miguel",
+	"age": 32
+}'
+```
